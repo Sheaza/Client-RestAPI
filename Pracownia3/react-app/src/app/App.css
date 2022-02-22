@@ -1,0 +1,285 @@
+.text1 {
+  font-family: "Courier New";
+  font-size: 7vh;
+  margin: 0;
+  color: #e0e0e0;
+  text-align: center;
+  padding-top: 30px;
+  font-weight:bold;
+  text-transform: uppercase;
+  user-select: none;
+}
+label {
+  font-family: "Courier New";
+  user-select: none;
+  width: 80%;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color:#e0e0e0;
+  margin-left: 35%;
+  margin-right: auto;
+}
+input {
+  display: block;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  height: 5vh;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  padding: 10px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.appMain {
+  background-color: #252525;
+  height: calc(100vh - 81px);
+  padding-top: 15px;
+  
+}
+
+.tableContainer {
+  user-select: none;
+  font-family: "Courier New";
+  font-size: 4vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5vw;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  user-select: none;
+}
+
+.buttonGET {
+  font-family: "Courier New";
+  border-radius: 20px;
+  font-size: 20px;
+  height: 50vh;
+  width: 12vw;
+  background: rgb(56, 55, 55);
+  background: linear-gradient(
+    0deg,
+    rgba(56, 55, 55, 1) 0%,
+    rgba(85, 177, 251, 1) 100%
+  );
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  transition-duration: 0.5s;
+  border: none;
+  color: white;
+}
+
+.buttonPOST {
+  font-family: "Courier New";
+  border-radius: 20px;
+  font-size: 20px;
+  height: 50vh;
+  width: 12vw;
+  background: rgb(56, 55, 55);
+  background: linear-gradient(
+    0deg,
+    rgba(56, 55, 55, 1) 0%,
+    rgba(59, 202, 148, 1) 100%
+  );
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  transition-duration: 0.5s;
+  border: none;
+  color: white;
+}
+
+.buttonPUT {
+  font-family: "Courier New";
+  border-radius: 20px;
+  font-size: 20px;
+  height: 50vh;
+  width: 12vw;
+  background: rgb(56, 55, 55);
+  background: linear-gradient(
+    0deg,
+    rgba(56, 55, 55, 1) 0%,
+    rgba(255, 160, 62, 1) 100%
+  );
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  transition-duration: 0.5s;
+  border: none;
+  color: white;
+}
+
+.buttonDELETE {
+  font-family: "Courier New";
+  border-radius: 20px;
+  font-size: 20px;
+  height: 50vh;
+  width: 12vw;
+  background: rgb(56, 55, 55);
+  background: linear-gradient(
+    0deg,
+    rgba(56, 55, 55, 1) 0%,
+    rgba(255, 67, 63, 1) 100%
+  );
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  transition-duration: 0.5s;
+  border: none;
+  color: white;
+}
+
+.buttonAdd{
+  border-radius: 25px;
+  background-color: rgba(59, 202, 148, 1);
+  border-color: rgba(59, 202, 148, 1);
+  opacity: 0.8;
+  margin-left: 47%;
+  font-weight: bold;
+  transition-duration: 0.3s;
+}
+
+.buttonAdd:hover {
+  opacity: 0.5;
+}
+
+.buttonAdd:active{
+  background-color: rgb(68, 70, 69);
+  border-color: ghostwhite;
+}
+
+.buttonEdit{
+  border-radius: 25px;
+  background-color: rgba(255, 160, 62, 1);
+  border-color: rgba(255, 160, 62, 1);
+  margin-left: 47%;
+  font-weight: bold;
+  transition-duration: 0.3s;
+}
+
+.buttonEdit:hover {
+  opacity: 0.5;
+}
+
+.buttonEdit:active{
+  background-color: rgb(68, 70, 69);
+  border-color: ghostwhite;
+  
+}
+
+.buttonDelete{
+  border-radius: 25px;
+  background-color: rgba(255, 67, 63, 1);
+  border-color: rgba(255, 67, 63, 1);
+  margin-left: 47%;
+  font-weight: bold;
+  transition-duration: 0.3s;
+}
+
+.buttonDelete:hover {
+  opacity: 0.5;
+}
+
+.buttonDelete:active{
+  background-color: rgb(68, 70, 69);
+  border-color: ghostwhite;
+}
+
+.inputButton {
+  margin-left: 70px;
+  border-radius: 25px;
+  height: 6vh;
+  width: 15vw;
+  background-color: rgba(59, 202, 148, 1);
+  border-color: rgba(59, 202, 148, 1);
+
+  transition-duration: 0.3s;
+  opacity: 0.8;
+  
+}
+.inputButton:hover {
+  opacity: 0.5;
+}
+.inputButton:active{
+  background-color: rgb(68, 70, 69);
+  border-color: ghostwhite;
+}
+
+.textButton {
+  font-family: "Courier New";
+  font-size: 3vh;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.buttonGET:hover {
+  opacity: 0.5;
+}
+.buttonPOST:hover {
+  opacity: 0.5;
+}
+.buttonPUT:hover {
+  opacity: 0.5;
+}
+.buttonDELETE:hover {
+  opacity: 0.5;
+}
+body {
+  overflow: hidden;
+}
+ul {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 20px;
+  }
+    
+    li{
+      display: inline;
+      padding: 7px 10px;
+      font-size:25px;
+      user-select: none;
+      color:whitesmoke;
+      font-weight: bold;
+      font-family: "Courier New";    
+    }
+    li a {
+    display: inline-block;
+    text-align:center;
+    font-size: 1em;
+    width: 15px;
+    height: 20px;
+    text-decoration: none;
+    background-color: rgba(59, 202, 148, 1);
+    padding: 10px 15px;
+    margin: 0px 1px 1px 0px;
+    border: 1px solid rgba(59, 202, 148, 1);
+    border-radius: 50%;
+    color: rgb(34, 34, 34);
+    transition-duration: 0.3s;
+    
+    }
+    
+    li a:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    background: rgb(17, 94, 49);
+    border: 1px solid gray;
+    }
+
+    li a:active{
+      opacity: 0.5;
+      border-color: ghostwhite;
+    }
+    

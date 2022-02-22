@@ -1,0 +1,33 @@
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#252525;
+    border-bottom: 3px solid rgb(145, 184, 145);
+}
+
+.links a {
+    text-decoration:none;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Courier New";
+    color: whitesmoke;
+    user-select: none;
+    -webkit-user-drag: none;
+    transition-duration: 0.3s;
+
+}
+
+.links a:hover{
+   color:rgb(0, 65, 0);
+   text-shadow:
+   0 0 3px rgb(204, 173, 173),  
+   0 0 7px rgb(149, 241, 149),  
+   0 0 15px rgb(149, 241, 149),  
+   0 0 23px rgb(149, 241, 149),
+   0 0 34px rgb(149, 241, 149); 
+}

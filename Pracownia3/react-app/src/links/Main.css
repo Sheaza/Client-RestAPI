@@ -1,0 +1,26 @@
+.main {
+    background-color: #252525;
+    height: calc(100vh - 81px);
+}
+
+.text {
+    text-align: center;
+    margin: -150px 0px 90px -250px; 
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.image {
+    -webkit-user-drag: none;
+    margin: -150px 0px 90px -250px; 
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    top: 35%;
+    left: 50%;
+    position: absolute;
+}

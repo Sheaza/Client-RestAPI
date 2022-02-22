@@ -1,0 +1,36 @@
+.main {
+    background-color: #252525;
+    height: calc(100vh - 81px);
+    padding-top: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.gif {
+    border-radius: 20px;
+    border: 2px solid rgb(226, 211, 211);
+    -webkit-user-drag: none;
+}
+
+.a {
+    font-weight: 500;
+    font-size: 36px;
+    transition-duration: 0.3s;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "Courier New";
+    font-weight: bold;
+    -webkit-user-drag: none;
+    user-select: none;
+
+}
+
+.a:hover {
+    color: rgb(175, 173, 173);
+}
+
+.p {
+    padding-top: 50px;
+}
